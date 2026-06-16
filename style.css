@@ -1,0 +1,55 @@
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Bebas Neue, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  #Greetings{
+    font-family: VT323, serif;
+    font-size: 80px;
+    color: #111184;
+    margin-bottom: 20px;
+  }
+  .container {
+    text-align: center;
+  }
+  .container h1 {
+    margin-bottom: 8px;
+    color: #222;
+  }
+  .container p {
+    margin-bottom: 30px;
+    color: #666;
+  }
+  .options {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  .contacts{
+    margin-bottom:auto;
+  }
+  .sem-btn {
+    width: 220px;
+    padding: 40px 20px;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: block;
+  }
+  .sem-btn:hover {
+    border-color: #4a6fdc;
+    background: #eef2ff;
+    color: #4a6fdc;
+    transform: translateY(-4px);
+  }
