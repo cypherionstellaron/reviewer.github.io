@@ -135,6 +135,7 @@
     font-weight: 600;
     color: var(--text-dark);
     line-height: 1.25;
+   font-family: Bebas Neue;
   }
 
   .slot-room {
