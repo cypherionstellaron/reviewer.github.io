@@ -141,6 +141,7 @@
   .slot-room {
     font-size: 11px;
     color: var(--text-muted);
+   font-family: sans-serif;
   }
 
   .schedule-card {
